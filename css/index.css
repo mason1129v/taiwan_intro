@@ -1,7 +1,79 @@
+body{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .main-title{
-    font-size: 2em;
+    font-size: 60px;
     margin-top: 30px;
     font-weight: bold;
     text-shadow: 0 0 10px yellow;
     text-align: center;
+}
+
+.block{
+    width: 70%;
+    margin: 20px auto;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    padding: 3%;
+    transition: 1s;
+}
+
+.block:hover{
+    background-color: rgba(0,0,0,0.85);
+}
+
+.t-name{
+    color: white;
+    font-weight: bold;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+.intro-table{
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 0 5px white;
+}
+
+.intro-table td{
+    padding: 10px;
+    border-bottom: 1px solid white;
+    box-shadow: 0 0 5px white;
+}
+
+.intro-table td:first-child{
+    border-right: 1px solid white;
+    width: 30%;
+}
+
+.intro-table tr:last-child td{
+    border-bottom: none;
+}
+
+.flag{
+    width: 30%;
+}
+
+.ref{
+    margin-left: 10%;
+    color: white;
+    font-size: 16px;
+}
+
+.map{
+    margin:10px auto;
+    width: 50%;
+}
+
+.map img{
+    width: 100%;
+    border-radius: 10px;
 }
