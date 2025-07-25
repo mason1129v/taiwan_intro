@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'MS PMincho';
     animation: fadeIn 3s ease;
@@ -76,6 +80,7 @@ main{
 .ft{
     color: white;
     text-align: center;
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 30px white;
     margin: 30px auto;
+    font-weight: bold;
 }

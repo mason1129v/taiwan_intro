@@ -4,3 +4,19 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+
+.yakyu-t{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 20px auto;
+}
+
+.yakyu-intro{
+    margin: 10px auto;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    padding: 10px 50px;
+}
