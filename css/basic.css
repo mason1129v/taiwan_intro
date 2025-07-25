@@ -47,18 +47,30 @@ nav:hover{
 }
 
 .nav-text:hover{
-    text-shadow: 0px 0px 10px yellow;
+    text-shadow: 0px 0px 20px yellow;
     transform: scale(1.2);
 }
 
 .now{
     color: white !important;
-    text-shadow: 0px 0px 10px yellow;
 }
 
 main{
     padding-top: 112px;
     width: 100%;
+}
+
+.block{
+    width: 70%;
+    margin: 20px auto;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    padding:20px 3%;
+    transition: 1s;
+}
+
+.block:hover{
+    background-color: rgba(0,0,0,0.85);
 }
 
 .ft{

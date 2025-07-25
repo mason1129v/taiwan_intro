@@ -4,3 +4,36 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+
+.food-t{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 20px auto;
+}
+
+.wrap-ctn{
+    width: 85%;
+    padding: 10px 5%;
+    margin: 10px auto;
+    
+}
+
+.wrap-ctn ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrap-ctn a{
+    width: 24%;
+    color: white;
+    margin: 10px 3%;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.wrap-ctn a:hover{
+    color: yellow;
+    text-shadow: 0 0 10px yellow;
+}

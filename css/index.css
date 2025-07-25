@@ -13,19 +13,6 @@ body{
     text-align: center;
 }
 
-.block{
-    width: 70%;
-    margin: 20px auto;
-    background-color: rgba(0,0,0,0.7);
-    border-radius: 10px;
-    padding: 3%;
-    transition: 1s;
-}
-
-.block:hover{
-    background-color: rgba(0,0,0,0.85);
-}
-
 .t-name{
     color: white;
     font-weight: bold;
@@ -62,10 +49,23 @@ body{
     width: 30%;
 }
 
+.wrap-link{
+    width: 80%;
+    padding:0 10%;
+    margin: auto;
+    text-align: center;
+}
+
+.ref-mg{
+    margin: 10px auto;
+}
+
 .ref{
-    margin-left: 10%;
+    width: 100%;
+    margin:auto;
     color: white;
     font-size: 16px;
+    overflow-wrap: break-word;
 }
 
 .map{
