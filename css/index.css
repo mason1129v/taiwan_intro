@@ -55,13 +55,14 @@ body{
 
 .wrap-link{
     width: 80%;
-    padding:0 10%;
     margin: auto;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .ref-mg{
-    margin: 10px auto;
+    margin: 10px 20px;
 }
 
 .ref{
@@ -80,4 +81,8 @@ body{
 .map img{
     width: 100%;
     border-radius: 10px;
+}
+
+.map:hover{
+    cursor: pointer;
 }
