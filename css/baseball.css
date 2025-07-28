@@ -20,3 +20,129 @@ body{
     line-height: 20px;
     padding: 10px 50px;
 }
+
+.team-block{
+    width: 70%;
+    min-width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding:20px 3%;
+    transition: 1s;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lion-bg{
+    background-color: rgba(235, 107, 0,0.7);
+}
+
+.elephant-bg{
+    background-color: rgba(252, 200, 0,0.7);
+}
+
+.monkey-bg{
+    background-color:rgba(139, 24, 38,0.7);
+}
+
+.guardian-bg{
+    background-color: rgba(0, 79, 153,0.7);
+}
+
+.dragon-bg{
+    background-color: rgba(193, 24, 45,0.7);
+}
+
+.hawk-bg{
+    background-color: rgba(12, 68, 53,0.7);
+}
+
+.lion-bg:hover{
+    background-color: rgb(235, 107, 0);
+}
+
+.elephant-bg:hover{
+    background-color: rgb(252, 200, 0);
+}
+
+.monkey-bg:hover{
+    background-color:rgb(139, 24, 38);
+}
+
+.guardian-bg:hover{
+    background-color: rgb(0, 79, 153);
+}
+
+.dragon-bg:hover{
+    background-color: rgb(193, 24, 45);
+}
+
+.hawk-bg:hover{
+    background-color: rgb(12, 68, 53);
+}
+
+.logo{
+    width: 20%;
+    border-radius: 10px;
+}
+
+.logo img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.team-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3%;
+    width: 70%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team-jpn{
+    color: white;
+    font-size: 24px;
+    line-height: 30px;
+    width: 100%;
+}
+
+.team-twn{
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    width: 100%;
+}
+
+.team-intro{
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 8%;
+    width: 80%;
+}
+
+.with-video{
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-ctn{
+    flex:1 1 300px;
+    min-width: 300px;
+    margin: 10px auto;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    padding: 10px 8%;
+}
+
+.team-vido{
+    margin: 10px 8%;
+    min-width:200px;
+}
