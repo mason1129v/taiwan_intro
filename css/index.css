@@ -75,14 +75,53 @@ body{
 
 .map{
     margin:10px auto;
-    width: 50%;
+    width: 300px;
 }
 
 .map img{
     width: 100%;
+    height: auto;
+    display: block;
     border-radius: 10px;
 }
 
-.map:hover{
-    cursor: pointer;
+.c-name{
+    position: absolute;
+    bottom: 30%;
+    right: 15%;
+    color: yellow;
+    text-shadow: 0 0 5px yellow;
+    text-align: center;
+    padding: 20px;
+    border: 0 0 3px yellow;
+    box-shadow: 0 0 5px yellow, inset 0 0 5px yellow;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.yilan,.keelung,.taipei,.new-taipei,.taoyuan,.hsinchu,.miaoli,.taichung,.hualien,.nantou
+,.changhua,.yunlin,.chiayi,.tainan,.kaohsiung,.pingtung,.taitung,.penghu,.liengchiang,.kinmen{
+    display: none;
+}
+
+#yl:hover~.yilan,#kl:hover~.keelung,#tp:hover~.taipei,#newt:hover~.new-taipei
+,#ty:hover~.taoyuan,#hc:hover~.hsinchu,#ml:hover~.miaoli,#tc:hover~.taichung
+,#hl:hover~.hualien,#nt:hover~.nantou,#ch:hover~.changhua,#yul:hover~.yunlin
+,#cy:hover~.chiayi,#tn:hover~.tainan,#kh:hover~.kaohsiung,#pt:hover~.pingtung
+,#tt:hover~.taitung,#ph:hover~.penghu,#lc:hover~.liengchiang,#km:hover~.kinmen{
+    display: block;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+    from{opacity: 0.1;}
+    to{opacity: 1;}
+}
+
+.county-block{
+    display: flex;
+}
+
+.county{
+    width: 50%;
 }

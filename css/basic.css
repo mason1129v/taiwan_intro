@@ -71,6 +71,7 @@ main{
     border-radius: 10px;
     padding:20px 3%;
     transition: 1s;
+    position: relative;
 }
 
 .block:hover{
