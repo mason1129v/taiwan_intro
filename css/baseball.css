@@ -189,6 +189,7 @@ body{
 
 .team-video{
     margin: 10px 8%;
+    min-height: 180px;
     min-width:280px;
     border-radius: 10px;
     transition: 1s;
