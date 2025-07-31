@@ -143,6 +143,7 @@ body{
 
 .county:hover{
     color: black;
+    transform: scale(1.05);
 }
 
 .county-y:hover{
