@@ -141,6 +141,18 @@ body{
     transition: 1s;
 }
 
+.county:hover{
+    color: black;
+}
+
+.county-y:hover{
+    background-color: yellow;
+}
+
+.county-w:hover{
+    background-color: white;
+}
+
 .county-y{
     border: 1px solid yellow;
     box-shadow: 0 0 10px yellow;
