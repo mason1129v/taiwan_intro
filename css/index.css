@@ -73,6 +73,9 @@ body{
     overflow-wrap: break-word;
 }
 
+.map-block{
+    min-width: 300px;
+}
 .map{
     margin:10px auto;
     width: 300px;
@@ -86,9 +89,10 @@ body{
 }
 
 .c-name{
+    width: 112px;
     position: absolute;
-    bottom: 30%;
-    right: 15%;
+    top: 220px;
+    right: 20%;
     color: yellow;
     text-shadow: 0 0 5px yellow;
     text-align: center;
@@ -120,8 +124,57 @@ body{
 
 .county-block{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .county{
-    width: 50%;
+    max-width: 28%;
+    min-width: 200px;
+    border-radius: 10px;
+    background-color: black;
+    flex:1 1 200px;
+    padding:10px;
+    margin: 20px;
+    scroll-margin-top: 128px;
+    transition: 1s;
+}
+
+.county-y{
+    border: 1px solid yellow;
+    box-shadow: 0 0 10px yellow;
+    color: yellow;
+}
+
+.county-w{
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
+    color: white;
+}
+
+.c-chi-name{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.c-eng-name{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.cty-intro{
+    width: 90%;
+    margin: 10px auto;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.hide{
+    background-color: transparent;
+    color: transparent;
+    height: 0;
 }
