@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    font-family: 'MS PMincho';
+    font-family: 'MS PMincho','Hiragino Mincho ProN','Hiragino Mincho Pro','serif';
     animation: fadeIn 3s ease;
 }
 
@@ -112,6 +112,14 @@ main{
     scroll-margin-top: 128px;
 }
 
+.taiwan-gif{
+    width: 10%;
+    margin:10px auto;
+}
+
+.taiwan-gif img{
+    width: 100%;
+}
 .ft{
     color: white;
     text-align: center;

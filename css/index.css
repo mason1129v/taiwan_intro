@@ -6,15 +6,35 @@ body{
 }
 
 .main-title{
+    margin: 30px auto;
     font-size: 60px;
-    margin-top: 30px;
     font-weight: bold;
     text-shadow: 0 0 10px yellow;
     text-align: center;
 }
 
+.main-hr{
+    border: 1px solid thin yellow;
+    box-shadow: 0 0 20px yellow;
+    width: 40%;
+    margin:0 auto;
+}
+
+.tr-back{
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.tr-back:hover{
+    background-color: transparent;
+}
+
 .main-intro{
     color: white;
+    text-shadow: 0 0 5px black;
+    line-height: 40px;
+    margin: auto;
+    width: fit-content;
 }
 
 .t-name{
