@@ -29,7 +29,7 @@ body{
 
 .team-block{
     width: 70%;
-    min-width: 300px;
+    min-width: 360px;
     margin: 20px auto;
     border-radius: 10px;
     padding:20px 3%;
@@ -199,4 +199,5 @@ body{
 .team-video:hover{
     border: 2px solid white;
     box-shadow: 0 0 30px white;
+
 }
