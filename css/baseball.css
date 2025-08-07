@@ -29,7 +29,7 @@ body{
 
 .team-block{
     width: 70%;
-    min-width: 400px;
+    min-width: 360px;
     margin: 20px auto;
     border-radius: 10px;
     padding:20px 3%;
@@ -188,7 +188,7 @@ body{
 }
 
 .team-video{
-    margin: 10px 8%;
+    margin: 10px 6%;
     min-height: 180px;
     min-width:280px;
     border-radius: 10px;
@@ -201,4 +201,5 @@ body{
     box-shadow: 0 0 30px white;
 
 }
+
 
