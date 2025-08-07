@@ -39,14 +39,6 @@ body{
     text-shadow: 0 0 10px yellow;
 }
 
-.select-info{
-    margin-top:20px;
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    text-shadow: 0 0 10px white;
-}
-
 .wrap-f-intro{
     width: 70%;
     margin: 20px auto;

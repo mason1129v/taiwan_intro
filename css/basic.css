@@ -112,6 +112,14 @@ main{
     scroll-margin-top: 128px;
 }
 
+.select-info{
+    margin-top:20px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 0 0 10px white;
+}
+
 .taiwan-gif{
     width: 10%;
     margin:10px auto;
@@ -123,7 +131,7 @@ main{
 .ft{
     color: white;
     text-align: center;
-    text-shadow: 0 0 30px white;
+    text-shadow: 0 0 30px black;
     margin: 30px auto;
     font-weight: bold;
 }
